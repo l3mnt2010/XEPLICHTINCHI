@@ -301,7 +301,7 @@ const resetClass = () => {
 }
 
 
-. bg_by_lam {
+.bg_by_lam {
     background-image: url("/src/assets/bg.gif");   
 }
 
