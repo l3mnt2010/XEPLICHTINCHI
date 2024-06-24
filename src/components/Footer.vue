@@ -1,6 +1,7 @@
 <template>
     <footer class="text-center text-sm">
-        <span>KMA Tín Chỉ v2022.12 - ngosangns</span>
+        <span>Author: ngosangns</span>
+        <span>Clone ké by l3mnt2010 :v</span>
     </footer>
 </template>
 
