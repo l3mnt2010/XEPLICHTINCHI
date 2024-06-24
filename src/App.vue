@@ -298,7 +298,7 @@ const resetClass = () => {
 .app {
     display: flex;
     flex-direction: column;
-    background-image: url("/src/assets/bg.jpg");
+    background-image: url("/src/assets/bg.gif");
 }
 
 main {
