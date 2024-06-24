@@ -5,11 +5,11 @@
 <template>
     <header class="mt-12 mb-4 text-center">
         <h1 class="text-3xl">
-            <a href="/">HỖ TRỢ XẾP LỊCH TÍN CHỈ KMA</a>
+            <a href="/">HỖ TRỢ XẾP LỊCH TÍN CHỈ KMA FROM KIT CLONE BY l3mnt2010</a>
         </h1>
         <p class="inline-flex gap-2 mt-2">
             <a
-                href="https://www.facebook.com/kitclubKMA"
+                href=""
                 target="_blank"
                 rel="noreferrer"
                 class="underline"
@@ -18,21 +18,7 @@
                 <img
                     :src="externalLinkIcon"
                     class="inline-block w-3 h-3 mb-4"
-                    alt="https://www.facebook.com/kitclubKMA"
-                />
-            </a>
-            |
-            <a
-                href="https://github.com/ngosangns/tin-chi/issues"
-                target="_blank"
-                rel="noreferrer"
-                class="underline"
-            >
-                ISSUES
-                <img
-                    :src="externalLinkIcon"
-                    class="inline-block w-3 h-3 mb-4"
-                    alt="https://www.facebook.com/kitclubKMA"
+                    alt=""
                 />
             </a>
         </p>
