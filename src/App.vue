@@ -138,7 +138,7 @@ const resetClass = () => {
 }
 </script>
 
-<template>
+<template class="bg_by_lam">
     <Header />
 
     <main class="app">
@@ -298,7 +298,11 @@ const resetClass = () => {
 .app {
     display: flex;
     flex-direction: column;
-    background-image: url("/src/assets/bg.gif");
+}
+
+
+. bg_by_lam {
+    background-image: url("/src/assets/bg.gif");   
 }
 
 main {
