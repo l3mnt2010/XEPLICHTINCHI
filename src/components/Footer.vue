@@ -1,7 +1,8 @@
 <template>
     <footer class="text-center text-sm">
-        <span>Author: ngosangns</span>
-        <span>Clone ké by l3mnt2010 :v</span>
+        <span class="text-white font-bold">Author: ngosangns</span>
+        <span class="text-white font-bold">Clone ké by l3mnt2010 :v</span>
+         <button class="text-white font-bold bg-green-600 rounded-md" onclick="window.print()">Lưu về PDF</button>
     </footer>
 </template>
 
