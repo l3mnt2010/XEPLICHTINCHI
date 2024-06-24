@@ -8,9 +8,27 @@
     <title>Hỗ trợ xếp lịch tín chỉ KMA</title>
 	  <meta name="description" content="KMA Tín Chỉ" />
     <style>
-      #content-heading__video{
+      body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      #content-heading__video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-     }
+        z-index: -1;
+      }
+      #app {
+        position: relative;
+        z-index: 1;
+        opacity: 0.8;
+      }
     </style>
   </head>
   <body>
