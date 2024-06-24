@@ -223,7 +223,7 @@ const resetClass = () => {
                                 </template>
                                 <tr>
                                     <td colspan="2" class="text-xs text-center">
-                                        <span class="font-bold text-lg">
+                                        <span class="font-bold text-white text-lg">
                                             {{ dayOfWeekMap[new Date(date).getDay()] }}
                                         </span><br />
                                         {{ new Date(date).toLocaleDateString("vi") }}
