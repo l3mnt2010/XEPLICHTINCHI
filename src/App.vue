@@ -156,25 +156,7 @@ const resetClass = () => {
                             <p class="mb-2">Học kỳ: <b>
                                     <h3 class="inline">{{ data?.title }}</h3>
                                 </b></p>
-                            <p>Lưu ý:</p>
-                            <ul class="list-disc ml-4 mb-2" style="padding-left: .125rem">
-                                <li>Trang web chỉ hỗ trợ xếp lịch, không hỗ trợ đăng ký môn học trên web của trường.</li>
-                                <li>
-                                    Các môn có tiết thực hành (có đuôi chấm theo sau) đã được thêm tiết lý thuyết vào.
-                                </li>
-                            </ul>
-                            <p>Hướng dẫn:</p>
-                            <ul class="list-disc ml-4 mb-2" style="padding-left: .125rem">
-                                <li>
-                                    Check vào nút đăng ký các môn muốn học, sau đó chọn lớp cho từng môn, tiết nào bị trùng
-                                    thì sẽ chuyển sang màu đỏ, bấm vào ô trong lịch để xem những môn của tiết đấy.
-                                </li>
-                                <li>
-                                    Xem chi tiết thông tin của từng lớp trong file excel của trường, tải ở
-                                    <b><a :href="excelPath" target="_blank">đây</a></b>.
-                                </li>
-                            </ul>
-                            <p><b>Chúc các bạn đăng ký đúng lớp đã chọn ❤</b></p>
+                            <p><b>Chúc các bạn yêu =)) đăng ký đúng lớp đã chọn ❤</b></p>
                         </div>
                         <button class="btn my-4" @click="resetClass">Reset</button>
                         <template :key="triggerRerenderClass"
