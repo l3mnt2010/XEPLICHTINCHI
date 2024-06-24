@@ -300,11 +300,6 @@ const resetClass = () => {
     flex-direction: column;
 }
 
-
-.bg_by_lam {
-    background-image: url("/src/assets/bg.gif");   
-}
-
 main {
     flex: 1;
     display: flex;
