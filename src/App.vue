@@ -157,7 +157,7 @@ const resetClass = () => {
                                     <h3 class="inline">{{ data?.title }}</h3>
                                 </b></p>
                             <p><b>Chúc các bạn yêu =)) đăng ký đúng lớp đã chọn ❤</b></p>
-                            <p><b>Lưu ý: data được gen ra với chat GPT nên có thể sẽ bị sai đừng tin tưởng 100% =))</b></p>
+                            <p><b>Lưu ý: data được gen ra với chat GPT nên có thể sẽ bị sai đừng tin tưởng 100% =)), mọi trách nhiệm mình sẽ không liên quan:<</b></p>
                         </div>
                         <button class="btn my-4" @click="resetClass">Reset</button>
                         <template :key="triggerRerenderClass"
