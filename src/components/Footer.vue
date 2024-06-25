@@ -1,7 +1,7 @@
 <template>
-    <footer class="text-center text-white text-sm">
-        <span class="text-white font-bold mx-2">Nguồn: ngosangns</span>
-        <span class="text-white font-bold mr-2">Clone ké by l3mnt2010 :v</span> <span><button class="text-white p-2 font-bold bg-green-600 rounded-md" onclick="window.print()">Lưu về PDF</button></span>
+    <footer class="text-center text-sm">
+        <span class="font-bold mx-2">Nguồn: ngosangns</span>
+        <span class="font-bold mr-2">Clone ké by l3mnt2010 :v</span> <span><button class="p-2 font-bold bg-green-600 rounded-md" onclick="window.print()">Lưu về PDF</button></span>
     </footer>
 </template>
 

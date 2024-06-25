@@ -224,11 +224,11 @@ const resetClass = () => {
                                 </template>
                                 <tr>
                                     <td colspan="2" class="text-xs text-center">
-                                        <span class="font-bold text-white text-lg">
+                                        <span class="font-bold text-lg">
                                             {{ dayOfWeekMap[new Date(date).getDay()] }}
                                         </span><br />
 
-                                          <span class="text-white">{{ new Date(date).toLocaleDateString("vi") }}</span>
+                                         {{ new Date(date).toLocaleDateString("vi") }}
                                     </td>
                                     <template v-for="session in sessions">
                                         <td class="px-2"
